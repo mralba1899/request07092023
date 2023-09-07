@@ -1,0 +1,14 @@
+name: Terraform Automation
+
+on:
+  push:
+    branches:name: Terraform Automation
+
+on:
+  push:
+    branches:
+      - Terraform_request07092023
+
+jobs:
+  terraform:
+    runs-on: sistema operativo
